@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.HomeActivity"
+    android:orientation="vertical"
+    android:background="@color/grey">
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/createBusinessBtn"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/create_your_profile"
+    android:textAllCaps="false"
+    android:background="@color/dark_grey"
+    android:textColor="@color/white"
+    android:layout_marginTop="@dimen/dime_30"
+    android:paddingLeft="@dimen/dime_10"
+    android:paddingRight="@dimen/dime_10"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchBusinessBtn"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/search_for_business"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/dime_30"
+        android:background="@color/dark_grey"
+        android:textColor="@color/white"
+
+        android:paddingLeft="@dimen/dime_10"
+        android:paddingRight="@dimen/dime_10"/>
+</LinearLayout>

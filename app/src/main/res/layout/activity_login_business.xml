@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Business.Activity.LoginBusinessActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dime_30"
+        android:text="@string/create_new_Business"
+        android:textColor="@color/white"
+        android:id="@+id/createAccountTv"
+        android:autoLink="all"
+        android:clickable="true"
+        android:linksClickable="true"
+        />
+
+    <EditText
+        android:id="@+id/userNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dime_10"
+        android:layout_marginRight="@dimen/dime_30"
+        android:layout_marginLeft="@dimen/dime_30"
+        android:padding="@dimen/dime_10"
+        android:hint="@string/user_Name"
+
+        android:background="@color/white"/>
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dime_10"
+        android:layout_marginRight="@dimen/dime_30"
+        android:layout_marginLeft="@dimen/dime_30"
+        android:padding="@dimen/dime_10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+
+        android:background="@color/white"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dime_10"
+        android:text="@string/remember_me"
+        android:textColor="@color/white"
+        android:id="@+id/remember"
+        />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dime_10"
+        android:background="@color/blue"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgetPasswordTv"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dime_30"
+        android:text="@string/forget_password"
+        android:textColor="@color/white"
+        android:autoLink="all"
+        android:clickable="true"
+        android:linksClickable="true"/>
+</LinearLayout>

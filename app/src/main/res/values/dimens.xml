@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="dime_1">1dp</dimen>
+    <dimen name="dime_5">5dp</dimen>
+    <dimen name="dime_10">10dp</dimen>
+    <dimen name="dime_15">15dp</dimen>
+    <dimen name="dime_20">20dp</dimen>
+    <dimen name="dime_30">30dp</dimen>
+    <dimen name="dime_40">40dp</dimen>
+    <dimen name="dime_50">50dp</dimen>
+    <dimen name="dime_60">60dp</dimen>
+    <dimen name="dime_0">0dp</dimen>
+
+    <dimen name="size_10">10sp</dimen>
+    <dimen name="size_15">15sp</dimen>
+    <dimen name="size_20">20sp</dimen>
+</resources>

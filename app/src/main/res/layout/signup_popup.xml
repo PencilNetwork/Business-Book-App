@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dime_10">
+
+
+    <EditText
+        android:id="@+id/userNameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@dimen/dime_10"
+
+
+        android:background="@color/white"
+        android:hint="@string/user_Name"
+
+        android:padding="@dimen/dime_10" />
+
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@dimen/dime_10"
+
+        android:background="@color/white"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+
+        android:padding="@dimen/dime_10" />
+
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dime_10"
+        android:background="@color/white"
+        android:hint="@string/email"
+
+        android:padding="@dimen/dime_10" />
+
+    <Button
+        android:id="@+id/okBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:text="Ok"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+</LinearLayout>

@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Business Book</string>
+    <string name="google_maps_key">AIzaSyD5S18qPSAZZvH3-TdWSdiD0bqffhrkdfQ</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="create_your_profile">Create your business profile</string>
+    <string name="search_for_business">Search for business</string>
+    <string name="eng">English</string>
+    <string name="arb">Arabic</string>
+    //business
+    //login
+    <string name="create_new_Business">Create New Business Account</string>
+    <string name="user_Name">User Name :</string>
+    <string name="password">Password :</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Log in</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="username_required">User name is required</string>
+    <string name="password_required">Password is required</string>
+    <string name="password_validation">Password should be greater than 6 digit</string>
+    //register
+    <string name="Creating_businesss">Creating businesss</string>
+    <string name="upload_image_business">Upload Image for business</string>
+    <string name="upload_logo_business">Upload Logo for business</string>
+    <string name="optional">Optional</string>
+    <string name="email">E-mail :</string>
+    <string name="address">Address :</string>
+    <string name="contact">Contact No :</string>
+    <string name="businessName">Business Name :</string>
+    <string name="category">Category</string>
+    <string name="businessdescription">Business description :</string>
+    <string name="set_location">Set your location </string>
+    <string name="confirm">Confirm</string>
+    <string name="search_address">Search address</string>
+    <string name="email_required">Email is required</string>
+
+    <string name="email_validation">Email not valid</string>
+    <string name="address_required">Address is required</string>
+    <string name="contact_required">Contact No is required</string>
+    <string name="business_name_required">Business Name is required</string>
+    <string name="category_required">Category is required</string>
+    <string name="business_description_required">Business Description is required</string>
+    <string name="location_required">Select location</string>
+
+    //menu
+
+    <string name="add_related_file">Add related file</string>
+    <string name="edit_business_profile">Edit business profile</string>
+    <string name="edit_offer">Edit offer</string>
+    <string name="log_out">Log out</string>
+    //profile
+    <string name="contactNumber">Contact Number :</string>
+
+    <string name="offer">Offer :</string>
+    <string name="relatedFile">Related Files :</string>
+    <string name="business_profile">Business  Profile</string>
+    <string name="create_profile">Create Profile:</string>
+    <string name="Upload_Offers_Image">Upload Offers Image:</string>
+    <string name="Add_Caption">Add Caption :</string>
+    <string name="Create_Offer">Create Offer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //edit profile
+    <string name="edit_image_business">Edit Image for business</string>
+    <string name="edit_logo_business">Edit Logo for business (optional)</string>
+    <string name="edit_file">Edit File</string>
+    <string name="confirm_editing">Confirm Editing</string>
+    <string name="edit_title">edit business profile</string>
+    //related file
+    <string name="upload_related_file">upload related files</string>
+    //edit offer
+    <string name="plain_text">Plain text</string>
+    <string name="offers">Offers :</string>
+    <string name="choose_location">choose your location</string>
+    //edit profile
+    <string name="reset_location">Reset your location</string>
+    //
+    <string name="cancel">Cancel</string>
+    <string name="open_location">Open your location</string>
+    <string name="ok">Ok</string>
+
+    <string name="upload_business">Upload Business Image</string>
+    <string name="upload_sucess">Sucessfuly uploaded</string>
+    <string name="failed_update">failed to  update</string>
+    <string name="sucess_update">Sucessfuly updated</string>
+    //forget password
+    <string name="send_password">Send new password</string>
+    <string name="your_email">Your E-mail</string>
+    //create offer
+    <string name="enter_caption">Enter caption</string>
+    <string name="enter_image">Enter image</string>
+    <string name="Forget_Password">Forget password</string>
+</resources>

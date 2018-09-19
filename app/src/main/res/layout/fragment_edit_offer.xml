@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Business.Fragment.EditOfferFragment"
+    android:background="@color/grey">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/offers"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_20"
+        android:layout_marginTop="@dimen/dime_10"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/offerRecycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="@dimen/dime_10" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "272390015010",
+    "firebase_url": "https://businessbook-30e90.firebaseio.com",
+    "project_id": "businessbook-30e90",
+    "storage_bucket": "businessbook-30e90.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272390015010:android:362a7594dc729ab9",
+        "android_client_info": {
+          "package_name": "com.pencil.pencil.businessbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272390015010-qrafic1h24llmqjjqds7v1mboc8ipbf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5S18qPSAZZvH3-TdWSdiD0bqffhrkdfQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pencil.pencil.businessbook.Business.Activity.MapSearchActivity"
+ >
+<ImageButton android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="search"
+    android:id="@+id/searchBtn"
+    android:layout_alignParentRight="true"
+    android:src="@android:drawable/ic_menu_search"
+    android:background="@color/transparent"
+    android:layout_margin="@dimen/dime_10"
+/>
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/searchBtn"
+        android:layout_above="@+id/confirmBtn"
+        />
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:id="@+id/confirmBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/dime_10"
+        android:layout_marginBottom="@dimen/dime_10"
+        />
+</RelativeLayout>

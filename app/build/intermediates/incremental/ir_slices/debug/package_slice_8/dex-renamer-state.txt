@@ -1,0 +1,4 @@
+#Wed Sep 19 16:33:30 EET 2018
+base.0=/Users/mac/Desktop/projects/BusinessBook1/BusinessBook/app/build/intermediates/transforms/dexMerger/debug/43
+path.0=classes.dex
+renamed.0=classes.dex

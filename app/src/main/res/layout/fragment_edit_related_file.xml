@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Business.Fragment.EditRelatedFileFragment"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/relatedFileLinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dime_10">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/ic_menu_camera"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_related_file"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/relatedFileIv"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:src="@drawable/car3"
+        android:layout_marginTop="@dimen/dime_10"
+        android:scaleType="fitXY"
+        android:visibility="gone"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relatedFileRecycleView"
+        android:layout_marginLeft="@dimen/dime_10"
+        android:layout_marginRight="@dimen/dime_10"
+        android:layout_marginTop="@dimen/dime_10"
+        />
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dime_10"
+        android:background="@color/colorPrimary"
+        android:text="@string/confirm"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
+</LinearLayout>
